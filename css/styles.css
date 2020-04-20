@@ -46,8 +46,6 @@ i.fas{
 .header_nav>a:hover{
   background-color: #445570
 }
-
- /*/////////////////// main ////////////////////*/
 .main_section{
   width: 81.5%;
   display: flex;
@@ -58,13 +56,11 @@ i.fas{
   display: flex;
   position: relative;
 }
-
 .article_wrap{
   width: 50%;
   color: #484848;
   position: relative;
 } 
-
 .article_heading{
   width: 68%;
   font-weight: 100;
@@ -99,7 +95,6 @@ i.fas{
 .article_photo{
   width: 50%;
 }
-/*///////////////////////секция с фото и реверс */
 .wrap:nth-child(even){
   flex-direction: row-reverse;
 }
@@ -118,9 +113,6 @@ i.fas{
   padding-right: 19.5%;
   right: 65%;
 } 
-
-/*///////////////////////секция с фото и реверс */
-/*/////// hover///////////////*/
 .post-1 {
 	background: #F3D250;
 }
@@ -135,13 +127,12 @@ i.fas{
 }
 .article_photo:hover {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 .article_wrap:hover{
   cursor: pointer;
   opacity: 0.5;
 }
- /*/////////////////// last post ////////////////////*/
 .last_post{
   background-image: url(../img/post5.jpg);
   height: 700px;
@@ -166,7 +157,6 @@ i.fas{
   line-height: 2.1vw;
   font-weight: 100;
 }
- /*/////////////////// sidebar ////////////////////*/
 .sidebar{
   width: 16.9%;
   margin-left: 1.4vw;
@@ -174,7 +164,7 @@ i.fas{
 }
 .aside_news{
   background-color: #fff;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 .photo{
   width: 100%;
@@ -203,14 +193,13 @@ i.fas{
   letter-spacing: -.03vw;
   padding: .5vw;
   background-color: #fff;
-  border: 2px solid #484848;
-  margin: 1vw 0 1.5vw 1.5vw;
+  border: 1px solid #484848;
+  margin: 1.1vw 0 1.5vw 1.5vw;
 }
 .aside_btn:hover{
   border-color: transparent transparent #484848 transparent; 
   cursor: pointer;
 }
- /*/////////////////// footer ////////////////////*/
 .footer_section{
   height: 130px;
   width: 100%;
@@ -273,7 +262,6 @@ i.fas{
   .wrap:nth-child(even)>.article_wrap>.article_date{
     right: 56.5%;
   }
-  /*////////sidbar/////////*/
   .sidebar{
     width: 23.06%;
     margin-left: 1.6vw;
@@ -298,7 +286,6 @@ i.fas{
     letter-spacing: 0.02vw;
     margin: 1.4vw 0 2.1vw 2.2vw;
   }
-  /*////////////*/
   .last_post{
     height: 464px;
     margin-bottom: 24px;
@@ -335,7 +322,6 @@ i.fas{
     color: #fff;
     font-size: 18px;
   }
-  /* ///////main////////////// */
   .main_section{
     width: 62%;
   }
@@ -387,7 +373,6 @@ i.fas{
   .wrap:nth-child(even)>.article_wrap>.article_date{
     right: 22%;
   }
-  /*/////////////////// last post ////////////////////*/
   .last_post{
     justify-content: flex-start;
     height: 470px;
@@ -402,7 +387,6 @@ i.fas{
     padding-left: 5.4%;
     line-height: 3vw;
   }
-  /* ////////////sidbar/////////// */
   .sidebar{
     width: 34.84%;
     margin-left: 3vw;
@@ -429,7 +413,6 @@ i.fas{
     padding: .9vw;
     margin: 3.3vw 0 3.8vw 4vw;
   }
-   /*/////////////////// footer ////////////////////*/
   .footer_section{
     height: 200px;
     flex-direction: column;
@@ -472,7 +455,6 @@ i.fas{
     font-size: 3.2vw;
     padding-bottom: 15vw;
   }
-  /*/////////////////// last post ////////////////////*/
   .heading_last_post{
     font-size: 8.5vw;
   }  
@@ -483,7 +465,6 @@ i.fas{
     line-height: 5vw;
     letter-spacing: 0.1vw;
   }
-  /* ////////////sidbar/////////// */
   .sidebar{
     width: 100%;
     margin-left: 0; 
@@ -507,7 +488,6 @@ i.fas{
     margin: 4.3vw 0 5.8vw 7vw;
     padding: 1.4vw;
   }
-  /* ////////////footer/////////// */
   .footer_section{
     height: 210px;
   }
